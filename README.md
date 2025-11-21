@@ -6,9 +6,8 @@ FreshMart provides a seamless shopping experience with user authentication, cart
 
 ## 🎥 Project Demo
 
-<p align="center">
-  https://github.com/user-attachments/assets/90345d9b-cdf6-4ca7-b0c2-0afa470f15a1
-</p>
+[https://github.com/user-attachments/assets/90345d9b-cdf6-4ca7-b0c2-0afa470f15a1](https://github-production-user-asset-6210df.s3.amazonaws.com/189539476/517385492-90345d9b-cdf6-4ca7-b0c2-0afa470f15a1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20251121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251121T124605Z&X-Amz-Expires=300&X-Amz-Signature=bb4a7264cef189498697eb131ef651b562b4f7454308c014c4aa58eb016f63ed&X-Amz-SignedHeaders=host)
+
 
 
 # 🛠️ Tech Stack
