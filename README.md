@@ -3,12 +3,16 @@
 A fully functional grocery ecommerce platform built using the MERN stack (MongoDB, Express, React, Node.js).
 FreshMart provides a seamless shopping experience with user authentication, cart system, checkout, order tracking, and an admin dashboard to manage products and orders.
 
-🚀 Live Demo
 
-(Add your deployed URL here once available)
+## 🎥 Project Demo
 
-🛠️ Tech Stack
-Frontend
+<p align="center">
+  https://github.com/user-attachments/assets/90345d9b-cdf6-4ca7-b0c2-0afa470f15a1
+</p>
+
+
+# 🛠️ Tech Stack
+# Frontend
 
 ⚛️ React.js (Vite)
 
@@ -20,7 +24,7 @@ Frontend
 
 📡 Axios
 
-Backend
+# Backend
 
 🟢 Node.js + Express.js
 
@@ -32,7 +36,7 @@ Backend
 
 ✨ Features
 
-👤 User Features
+# 👤 User Features
 
 -Register & Login (JWT Auth)
 
@@ -52,7 +56,7 @@ Backend
 
 -Track Order Status
 
-🛒 Cart System
+# 🛒 Cart System
 
 -Cart Sidebar
 
@@ -60,7 +64,7 @@ Backend
 
 -Add to Cart From Any Page
 
-🔧 Admin Features
+# 🔧 Admin Features
 
 -Add, Edit, Delete Products
 
@@ -68,7 +72,7 @@ Backend
 
 -Update Order Status (Pending → Confirmed → Shipped → Delivered)
 
-🎨 UI Features
+# 🎨 UI Features
 
 -Fully responsive UI
 
@@ -78,7 +82,8 @@ Backend
 
 -Search with Suggestions
 
-📁 Project Structure
+# 📁 Project Structure
+
 freshmart-mern/
 │
 ├── backend/
@@ -101,7 +106,8 @@ freshmart-mern/
     │   └── main.jsx
     └── package.json
 
-⚙️ Environment Variables
+# ⚙️ Environment Variables
+
 Backend .env
 
 MONGO_URI=your_mongodb_connection_string
@@ -109,42 +115,46 @@ JWT_SECRET=your_secret_key
 PORT=5000
 
 Frontend .env
+
 VITE_API_URL=http://localhost:5000/api
 
-▶️ How to Run the Project
+# ▶️ How to Run the Project
 
-1️⃣ Backend Setup
+# 1️⃣ Backend Setup
 cd backend
 npm install
 npm start
 
-2️⃣ Frontend Setup
+# 2️⃣ Frontend Setup
 cd frontend
 npm install
 npm run dev
 
-📦 API Endpoints
--Auth
+# 📦 API Endpoints
+
+# -Auth
+
 Method	  Endpoint	         Description
 POST	/api/auth/register	 Register User
 POST	/api/auth/login	     Login User
 GET	    /api/auth/me	     Get Logged-in User
--Products
+
+# -Products
+
 Method	  Endpoint	         Description
 GET	     /api/products	     Get All Products
 POST	 /api/products	     Add Product (Admin)
--Orders
+
+# -Orders
+
 Method	  Endpoint	            Description
 POST	 /api/orders	        Place Order
 GET	     /api/orders/my-orders	Get User Orders
 GET	     /api/orders	        Admin: All Orders
 PATCH	 /api/orders/:id/status	Update Order Status
 
-🖼️ Screenshots
 
-(Add images after deployment — optional)
-
-📜 License
+# 📜 License
 
 This project is licensed under the MIT License.
 
