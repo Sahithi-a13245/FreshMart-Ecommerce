@@ -31,51 +31,52 @@ Backend
 🛡️ Role-based Access (Admin/User)
 
 ✨ Features
+
 👤 User Features
 
-Register & Login (JWT Auth)
+-Register & Login (JWT Auth)
 
-Browse Products by Category
+-Browse Products by Category
 
-Add/Remove Items to Cart
+-Add/Remove Items to Cart
 
-Update Quantity in Cart
+-Update Quantity in Cart
 
-Full Checkout Form
+-Full Checkout Form
 
-Real Payment UI (dummy)
+-Real Payment UI (dummy)
 
-Order Success Page
+-Order Success Page
 
-View Order History
+-View Order History
 
-Track Order Status
+-Track Order Status
 
 🛒 Cart System
 
-Cart Sidebar
+-Cart Sidebar
 
-Cart Count Badge
+-Cart Count Badge
 
-Add to Cart From Any Page
+-Add to Cart From Any Page
 
 🔧 Admin Features
 
-Add, Edit, Delete Products
+-Add, Edit, Delete Products
 
-Manage All Orders
+-Manage All Orders
 
-Update Order Status (Pending → Confirmed → Shipped → Delivered)
+-Update Order Status (Pending → Confirmed → Shipped → Delivered)
 
 🎨 UI Features
 
-Fully responsive UI
+-Fully responsive UI
 
-Category Navigation
+-Category Navigation
 
-Dark/Light Mode Toggle
+-Dark/Light Mode Toggle
 
-Search with Suggestions
+-Search with Suggestions
 
 📁 Project Structure
 freshmart-mern/
@@ -102,6 +103,7 @@ freshmart-mern/
 
 ⚙️ Environment Variables
 Backend .env
+
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 PORT=5000
@@ -110,6 +112,7 @@ Frontend .env
 VITE_API_URL=http://localhost:5000/api
 
 ▶️ How to Run the Project
+
 1️⃣ Backend Setup
 cd backend
 npm install
@@ -121,21 +124,21 @@ npm install
 npm run dev
 
 📦 API Endpoints
-Auth
-Method	Endpoint	Description
-POST	/api/auth/register	Register User
-POST	/api/auth/login	Login User
-GET	/api/auth/me	Get Logged-in User
-Products
-Method	Endpoint	Description
-GET	/api/products	Get All Products
-POST	/api/products	Add Product (Admin)
-Orders
-Method	Endpoint	Description
-POST	/api/orders	Place Order
-GET	/api/orders/my-orders	Get User Orders
-GET	/api/orders	Admin: All Orders
-PATCH	/api/orders/:id/status	Update Order Status
+-Auth
+Method	  Endpoint	         Description
+POST	/api/auth/register	 Register User
+POST	/api/auth/login	     Login User
+GET	    /api/auth/me	     Get Logged-in User
+-Products
+Method	  Endpoint	         Description
+GET	     /api/products	     Get All Products
+POST	 /api/products	     Add Product (Admin)
+-Orders
+Method	  Endpoint	            Description
+POST	 /api/orders	        Place Order
+GET	     /api/orders/my-orders	Get User Orders
+GET	     /api/orders	        Admin: All Orders
+PATCH	 /api/orders/:id/status	Update Order Status
 
 🖼️ Screenshots
 
