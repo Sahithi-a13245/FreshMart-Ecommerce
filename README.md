@@ -1,4 +1,4 @@
-📦 FreshMart — MERN Ecommerce Platform
+# 📦 FreshMart — MERN Ecommerce Platform
 
 A fully functional grocery ecommerce platform built using the MERN stack (MongoDB, Express, React, Node.js).
 FreshMart provides a seamless shopping experience with user authentication, cart system, checkout, order tracking, and an admin dashboard to manage products and orders.
